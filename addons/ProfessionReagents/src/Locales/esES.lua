@@ -1,0 +1,33 @@
+local _, addon = ...
+
+addon.locales.esES = {
+    heading = "Utilizado en:",
+    enableLabel = "Visible",
+    enableTooltip = "Muestra u oculta la sección «Utilizado en:» en la descripción de los objetos.",
+    iconsLabel = "Iconos",
+    iconsTooltip = "Muestra u oculta el icono que aparece junto al nombre de cada profesión.",
+    compactLabel = "Modo compacto",
+    compactTooltip = "Agrupa las profesiones en una línea si caben. Desmárcalo para ver una por línea.",
+    debugLabel = "Modo de depuración",
+    debugTooltip = "Muestra información de diagnóstico al cargar el addon y añade detalles a /pr status.",
+    on = "activado",
+    off = "desactivado",
+    reset = "Se ha restablecido la configuración predeterminada.",
+    unknown = "Desconocido",
+    hookUnavailable = "No disponible",
+    dataUnavailable = "Falta el índice de materiales de Forever o contiene datos inválidos.",
+    statusAddon = "Versión %s · %s",
+    statusClient = "Cliente %s · compilación %s · interfaz %s",
+    statusData = "Datos: %s · %s · compilación de Forever %s",
+    statusCounts = "Recetas con ingredientes: %d de %d · materiales: %d · profesiones: %d",
+    statusHook = "Método de tooltip: %s",
+    debugSettings = "Iconos: %s · modo compacto: %s",
+    help = {
+        "/pr on | off — Activar o desactivar el addon",
+        "/pr icons — Cambiar la visibilidad de los iconos de profesión",
+        "/pr compact — Cambiar el modo compacto",
+        "/pr debug — Cambiar el modo de depuración",
+        "/pr status — Consultar el cliente, los datos y el método de tooltip",
+        "/pr reset — Restablecer la configuración predeterminada",
+    },
+}

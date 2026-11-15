@@ -1,0 +1,3 @@
+.cache/
+dist/
+addons/ProfessionReagents/src/Database/Forever.lua

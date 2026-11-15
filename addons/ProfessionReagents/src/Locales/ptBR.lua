@@ -1,0 +1,33 @@
+local _, addon = ...
+
+addon.locales.ptBR = {
+    heading = "Usado em:",
+    enableLabel = "Visível",
+    enableTooltip = "Mostra ou oculta a seção «Usado em» nas dicas dos itens.",
+    iconsLabel = "Ícones",
+    iconsTooltip = "Mostra ou oculta o ícone ao lado do nome de cada profissão.",
+    compactLabel = "Modo compacto",
+    compactTooltip = "Agrupa as profissões em uma linha se couberem. Desmarque para ver uma por linha.",
+    debugLabel = "Modo de depuração",
+    debugTooltip = "Mostra informações de diagnóstico ao carregar e acrescenta detalhes a /pr status.",
+    on = "ativado",
+    off = "desativado",
+    reset = "Configurações padrão restauradas.",
+    unknown = "Desconhecido",
+    hookUnavailable = "Indisponível",
+    dataUnavailable = "O índice de materiais do Forever está indisponível ou é inválido.",
+    statusAddon = "Versão %s · %s",
+    statusClient = "Cliente %s · compilação %s · interface %s",
+    statusData = "Dados: %s · %s · compilação do Forever %s",
+    statusCounts = "Receitas com ingredientes: %d de %d · materiais: %d · profissões: %d",
+    statusHook = "Método de exibição das dicas: %s",
+    debugSettings = "Ícones: %s · modo compacto: %s",
+    help = {
+        "/pr on | off — Ativar ou desativar o addon",
+        "/pr icons — Mostrar ou ocultar os ícones de profissão",
+        "/pr compact — Alternar o modo compacto",
+        "/pr debug — Alternar as mensagens de depuração",
+        "/pr status — Mostrar informações do cliente, dos dados e das dicas",
+        "/pr reset — Restaurar as configurações padrão",
+    },
+}

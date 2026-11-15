@@ -1,0 +1,33 @@
+local _, addon = ...
+
+addon.locales.deDE = {
+    heading = "Verwendet in:",
+    enableLabel = "Sichtbar",
+    enableTooltip = "Blendet den Abschnitt „Verwendet in“ in Gegenstandstooltips ein oder aus.",
+    iconsLabel = "Symbole",
+    iconsTooltip = "Blendet das Symbol neben jedem Berufsnamen ein oder aus.",
+    compactLabel = "Kompaktmodus",
+    compactTooltip = "Zeigt Berufe bei genug Platz in einer Zeile. Ohne Häkchen erscheint ein Beruf pro Zeile.",
+    debugLabel = "Debugmodus",
+    debugTooltip = "Zeigt beim Laden Diagnoseinformationen und ergänzt die Ausgabe von /pr status.",
+    on = "aktiviert",
+    off = "deaktiviert",
+    reset = "Standardeinstellungen wiederhergestellt.",
+    unknown = "Unbekannt",
+    hookUnavailable = "Nicht verfügbar",
+    dataUnavailable = "Der Materialindex für Forever fehlt oder ist ungültig.",
+    statusAddon = "Version %s · %s",
+    statusClient = "Client %s · Build %s · Schnittstelle %s",
+    statusData = "Daten: %s · %s · Forever-Build %s",
+    statusCounts = "Rezepte mit Zutaten: %d von %d · Materialien: %d · Berufe: %d",
+    statusHook = "Tooltip-Methode: %s",
+    debugSettings = "Symbole: %s · Kompaktmodus: %s",
+    help = {
+        "/pr on | off — Addon aktivieren oder deaktivieren",
+        "/pr icons — Berufssymbole ein- oder ausblenden",
+        "/pr compact — Kompaktmodus umschalten",
+        "/pr debug — Debugmeldungen umschalten",
+        "/pr status — Informationen zu Client, Daten und Tooltip anzeigen",
+        "/pr reset — Standardeinstellungen wiederherstellen",
+    },
+}

@@ -1,0 +1,33 @@
+local _, addon = ...
+
+addon.locales.koKR = {
+    heading = "사용처:",
+    enableLabel = "표시",
+    enableTooltip = "아이템 툴팁의 사용처 항목을 표시하거나 숨깁니다.",
+    iconsLabel = "아이콘",
+    iconsTooltip = "전문 기술 이름 옆의 아이콘을 표시하거나 숨깁니다.",
+    compactLabel = "간략 표시",
+    compactTooltip = "공간이 충분하면 전문 기술을 한 줄에 표시합니다. 끄면 한 줄에 하나씩 표시합니다.",
+    debugLabel = "디버그 모드",
+    debugTooltip = "애드온을 불러올 때 진단 정보를 표시하고 /pr status에 세부 정보를 추가합니다.",
+    on = "켜짐",
+    off = "꺼짐",
+    reset = "기본 설정을 복원했습니다.",
+    unknown = "알 수 없음",
+    hookUnavailable = "사용할 수 없음",
+    dataUnavailable = "Forever의 재료 목록이 없거나 올바르지 않습니다.",
+    statusAddon = "버전 %s · %s",
+    statusClient = "클라이언트 %s · 빌드 %s · 인터페이스 %s",
+    statusData = "데이터: %s · %s · Forever 빌드 %s",
+    statusCounts = "재료가 필요한 제작법: %d/%d · 재료: %d종 · 전문 기술: %d개",
+    statusHook = "툴팁 연동 방식: %s",
+    debugSettings = "아이콘: %s · 간략 표시: %s",
+    help = {
+        "/pr on | off — 애드온 켜기 또는 끄기",
+        "/pr icons — 전문 기술 아이콘 표시 전환",
+        "/pr compact — 간략 표시 전환",
+        "/pr debug — 디버그 메시지 표시 전환",
+        "/pr status — 클라이언트, 데이터 및 툴팁 정보 확인",
+        "/pr reset — 기본 설정 복원",
+    },
+}

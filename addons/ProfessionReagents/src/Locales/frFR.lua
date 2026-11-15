@@ -1,0 +1,33 @@
+local _, addon = ...
+
+addon.locales.frFR = {
+    heading = "Utilisé en :",
+    enableLabel = "Visible",
+    enableTooltip = "Affiche ou masque la section « Utilisé en » dans les infobulles d’objets.",
+    iconsLabel = "Icônes",
+    iconsTooltip = "Affiche ou masque l’icône à côté de chaque nom de métier.",
+    compactLabel = "Mode compact",
+    compactTooltip = "Regroupe les métiers sur une ligne si possible. Décochez pour afficher un métier par ligne.",
+    debugLabel = "Mode de débogage",
+    debugTooltip = "Affiche des informations de diagnostic au chargement et ajoute des détails à /pr status.",
+    on = "activé",
+    off = "désactivé",
+    reset = "Les paramètres par défaut ont été rétablis.",
+    unknown = "Inconnu",
+    hookUnavailable = "Indisponible",
+    dataUnavailable = "L’index des composants de Forever est indisponible ou invalide.",
+    statusAddon = "Version %s · %s",
+    statusClient = "Client %s · compilation %s · interface %s",
+    statusData = "Données : %s · %s · compilation Forever %s",
+    statusCounts = "Recettes avec ingrédients : %d sur %d · composants : %d · métiers : %d",
+    statusHook = "Méthode d’affichage des infobulles : %s",
+    debugSettings = "Icônes : %s · mode compact : %s",
+    help = {
+        "/pr on | off — Activer ou désactiver l’addon",
+        "/pr icons — Afficher ou masquer les icônes de métier",
+        "/pr compact — Basculer le mode compact",
+        "/pr debug — Basculer les messages de débogage",
+        "/pr status — Afficher les informations sur le client, les données et les infobulles",
+        "/pr reset — Rétablir les paramètres par défaut",
+    },
+}

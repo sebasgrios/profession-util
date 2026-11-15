@@ -1,0 +1,33 @@
+local _, addon = ...
+
+addon.locales.itIT = {
+    heading = "Usato in:",
+    enableLabel = "Visibile",
+    enableTooltip = "Mostra o nasconde la sezione «Usato in» nelle descrizioni degli oggetti.",
+    iconsLabel = "Icone",
+    iconsTooltip = "Mostra o nasconde l’icona accanto al nome di ogni professione.",
+    compactLabel = "Modalità compatta",
+    compactTooltip = "Raggruppa le professioni su una riga se c’è spazio. Disattiva per vederne una per riga.",
+    debugLabel = "Modalità di debug",
+    debugTooltip = "Mostra informazioni di diagnostica al caricamento e aggiunge dettagli a /pr status.",
+    on = "attivo",
+    off = "disattivato",
+    reset = "Impostazioni predefinite ripristinate.",
+    unknown = "Sconosciuto",
+    hookUnavailable = "Non disponibile",
+    dataUnavailable = "L’indice dei materiali di Forever non è disponibile o non è valido.",
+    statusAddon = "Versione %s · %s",
+    statusClient = "Client %s · build %s · interfaccia %s",
+    statusData = "Dati: %s · %s · build di Forever %s",
+    statusCounts = "Ricette con ingredienti: %d di %d · materiali: %d · professioni: %d",
+    statusHook = "Metodo delle descrizioni: %s",
+    debugSettings = "Icone: %s · modalità compatta: %s",
+    help = {
+        "/pr on | off — Attiva o disattiva l’addon",
+        "/pr icons — Mostra o nascondi le icone delle professioni",
+        "/pr compact — Attiva o disattiva la modalità compatta",
+        "/pr debug — Attiva o disattiva i messaggi di debug",
+        "/pr status — Mostra informazioni sul client, sui dati e sulle descrizioni",
+        "/pr reset — Ripristina le impostazioni predefinite",
+    },
+}

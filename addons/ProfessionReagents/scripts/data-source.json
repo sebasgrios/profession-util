@@ -1,0 +1,46 @@
+{
+    "library": {
+        "version": "1.10.0",
+        "release": "https://www.curseforge.com/wow/addons/libprofessiondb/files/9619259",
+        "download": "https://mediafilez.forgecdn.net/files/9619/259/ProfessionDB-ProfessionDB-v1.10.0.zip",
+        "sha256": "F146D5D82347033EC381F42150BFA4D4379149E41D9EFE5C0D4FF291A64C3639"
+    },
+    "game": "Forever",
+    "product": "wowf",
+    "clientVersion": "1.60.1",
+    "build": "1.60.1.70938",
+    "interface": 16001,
+    "recipes": 2517,
+    "professionIDs": [129, 164, 165, 171, 182, 185, 186, 197, 202, 333, 356, 393],
+    "skillLineSha256": {
+        "deDE": "277B61B3578467FE7147C39820A70440F98B3B893B5D3C77044AF0AF0611DE0F",
+        "enUS": "F3867D43AB42D1F5278E6E5028D0151BC06E4EF8E5CBD790A20DF6EE57AA654D",
+        "esES": "77309367FEC682C66383C2F881FC407864C171785A772770B0FEF62309CCAF45",
+        "esMX": "B6B27920A7FFD1A016DE7EFBEA24293906CD726403EB26CECAFCDE284AD1042E",
+        "frFR": "25390D095B3B214064AD194B7A4EF8A98AF9B0BFFB0C9E91C90D481C7BB659E0",
+        "koKR": "24FBF5B9FC919EEB06EFA3C4768906664D57E0063531BE248B97E3B8BB4138F5",
+        "ptBR": "B6F12F1931B5930F74DAD5EE5F637D5B385D18FD8FAC281F81EF6D5679D5417C",
+        "ruRU": "7A77E9BE624F01CCB9BA62ACC97B9495A4887CC68C1EF72A5F49AC8513810B99",
+        "zhCN": "DB0FE59FC385E1B3C25528F0504430631FC592DE564840DC601A428C2EC646A4",
+        "zhTW": "278FC7DB4A082D214AE6339F904F5CD47CBC8D8219D25B9854EFB6CE923047AC"
+    },
+    "localizedNames": {
+        "itIT": {
+            "source": "https://worldofwarcraft.blizzard.com/it-it/news/23090134/manuale-base-di-wow-classic-per-nuovi-giocatori",
+            "names": {
+                "129": "Primo Soccorso",
+                "164": "Forgiatura",
+                "165": "Conciatura",
+                "171": "Alchimia",
+                "182": "Erbalismo",
+                "185": "Cucina",
+                "186": "Estrazione",
+                "197": "Sartoria",
+                "202": "Ingegneria",
+                "333": "Incantamento",
+                "356": "Pesca",
+                "393": "Scuoiatura"
+            }
+        }
+    }
+}

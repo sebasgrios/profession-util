@@ -1,0 +1,35 @@
+local _, addon = ...
+
+addon.locales = {
+    enUS = {
+        heading = "Used in:",
+        enableLabel = "Visible",
+        enableTooltip = "Shows or hides the Used in section in item tooltips.",
+        iconsLabel = "Icons",
+        iconsTooltip = "Shows or hides the icon beside each profession name.",
+        compactLabel = "Compact mode",
+        compactTooltip = "Lists professions on one line when they fit. Turn off to show one per line.",
+        debugLabel = "Debug mode",
+        debugTooltip = "Shows diagnostic information at startup and adds details to /pr status.",
+        on = "on",
+        off = "off",
+        reset = "Default settings restored.",
+        unknown = "Unknown",
+        hookUnavailable = "Unavailable",
+        dataUnavailable = "The Forever reagent index is unavailable or invalid.",
+        statusAddon = "Version %s · %s",
+        statusClient = "Client %s · build %s · interface %s",
+        statusData = "Data: %s · %s · Forever build %s",
+        statusCounts = "Recipes with ingredients: %d of %d · materials: %d · professions: %d",
+        statusHook = "Tooltip hook: %s",
+        debugSettings = "Icons: %s · compact mode: %s",
+        help = {
+            "/pr on | off — Enable or disable the addon",
+            "/pr icons — Toggle profession icons",
+            "/pr compact — Toggle compact mode",
+            "/pr debug — Toggle debug messages",
+            "/pr status — Show client, data and hook information",
+            "/pr reset — Restore default settings",
+        },
+    },
+}
