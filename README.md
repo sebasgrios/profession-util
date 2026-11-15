@@ -1,10 +1,10 @@
 # Profession Util
 
-Profession Util es un repositorio de addons para las profesiones de World of Warcraft. El primero, **Profession Reagents**, muestra qué profesiones usan un objeto como ingrediente cuando pasas el cursor sobre él. Así puedes decidir qué materiales guardar o vender, aunque tu personaje no haya aprendido esas profesiones.
+Addons para las profesiones de **World of Warcraft: Forever**. El primero, **Profession Reagents**, muestra en la descripción de cada objeto qué profesiones lo usan como ingrediente. Así puedes decidir qué materiales guardar, vender o enviar a otro personaje, aunque todavía no hayas aprendido esas profesiones.
 
 ## Instalar Profession Reagents
 
-1. Cierra el juego si está abierto. Descarga el ZIP de **Assets** y descomprímelo. [Última release de Profession Reagents](https://github.com/sebasgrios/profession-util/releases/latest)
+1. Cierra el juego si está abierto. Descarga el paquete ZIP de **Profession Reagents** y descomprímelo. [Descargar Profession Reagents 1.0.0](https://raw.githubusercontent.com/sebasgrios/profession-util/main/packages/ProfessionReagents/ProfessionReagents-1.0.0.zip)
 2. En Battle.net, selecciona **World of Warcraft: Forever**. En el engranaje junto a **Jugar**, elige **Mostrar en el Explorador**.
 3. Abre `_forever_`, entra en `Interface` y luego en `AddOns`. Copia allí la carpeta `ProfessionReagents` que extrajiste del ZIP.
 4. Abre el juego y activa **Profession Reagents** en la lista de addons de la pantalla de selección de personaje.
@@ -14,6 +14,8 @@ Profession Util es un repositorio de addons para las profesiones de World of War
 | Addon | Función | Cliente |
 | --- | --- | --- |
 | [Profession Reagents](addons/ProfessionReagents/README.md) | Consulta las profesiones que usan un objeto y ajusta su presentación desde Opciones > Addons | WoW: Forever 1.60.1 (`16001`) |
+
+Consulta las novedades de cada versión en la sección de releases. [Última release](https://github.com/sebasgrios/profession-util/releases/latest)
 
 ## Desarrollo
 

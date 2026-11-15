@@ -4,7 +4,7 @@
 
 ## Instalación
 
-1. Cierra el juego si está abierto. Descarga el ZIP de **Assets** y descomprímelo. [Última release de Profession Reagents](https://github.com/sebasgrios/profession-util/releases/latest)
+1. Cierra el juego si está abierto. Descarga el paquete ZIP y descomprímelo. [Descargar Profession Reagents 1.0.0](https://raw.githubusercontent.com/sebasgrios/profession-util/main/packages/ProfessionReagents/ProfessionReagents-1.0.0.zip)
 2. En Battle.net, selecciona **World of Warcraft: Forever**. Haz clic en el engranaje junto a **Jugar** y elige **Mostrar en el Explorador**.
 3. Dentro de `_forever_`, abre `Interface` y luego `AddOns`. Copia allí la carpeta `ProfessionReagents` que extrajiste del ZIP.
 4. Abre el juego. En la pantalla de selección de personaje, abre la lista de addons y comprueba que **Profession Reagents** esté activado.
@@ -45,6 +45,6 @@ pwsh -File scripts/package.ps1 -Addon ProfessionReagents -Verify
 
 `-VerifyData` usa los archivos fijados de CurseForge y wago.tools. Sin esa opción, la validación usa los datos incluidos y funciona sin conexión. Los scripts admiten rutas explícitas a `-Lua`, `-Luacheck` y `-StyLua` según corresponda.
 
-Para publicar, usa el ZIP generado en `dist/` como adjunto de la release de GitHub y como archivo de CurseForge marcado **Forever (1.60.1)**. El texto para CurseForge está disponible en [inglés y español](docs/CURSEFORGE.md).
+El ZIP de GitHub se publica como paquete. La release contiene las notas de versión y el enlace al ZIP. Para CurseForge, usa el ZIP generado en `dist/` y marca **Forever (1.60.1)**. [Última release](https://github.com/sebasgrios/profession-util/releases/latest) · [Texto para CurseForge en inglés y español](docs/CURSEFORGE.md)
 
 El código propio usa la licencia MIT. El paquete incluye el aviso de LibProfessionDB. [Licencia MIT](../../LICENSE) · [Aviso de LibProfessionDB](src/LICENSE-LibProfessionDB.txt) · [Arquitectura y referencias de la API](docs/ARCHITECTURE.md)
