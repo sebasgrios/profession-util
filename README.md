@@ -4,7 +4,7 @@ Addons para las profesiones de **World of Warcraft: Forever**. El primero, **Pro
 
 ## Instalar Profession Reagents
 
-1. Cierra el juego si está abierto. Descarga el paquete ZIP de **Profession Reagents** y descomprímelo. [Descargar Profession Reagents 1.0.0](https://raw.githubusercontent.com/sebasgrios/profession-util/main/packages/ProfessionReagents/ProfessionReagents-1.0.0.zip)
+1. Cierra el juego si está abierto. En **Assets**, descarga el ZIP de **Profession Reagents** y descomprímelo. [Descargas de la última release](https://github.com/sebasgrios/profession-util/releases/latest)
 2. En Battle.net, selecciona **World of Warcraft: Forever**. En el engranaje junto a **Jugar**, elige **Mostrar en el Explorador**.
 3. Abre `_forever_`, entra en `Interface` y luego en `AddOns`. Copia allí la carpeta `ProfessionReagents` que extrajiste del ZIP.
 4. Abre el juego y activa **Profession Reagents** en la lista de addons de la pantalla de selección de personaje.
@@ -14,8 +14,6 @@ Addons para las profesiones de **World of Warcraft: Forever**. El primero, **Pro
 | Addon | Función | Cliente |
 | --- | --- | --- |
 | [Profession Reagents](addons/ProfessionReagents/README.md) | Consulta las profesiones que usan un objeto y ajusta su presentación desde Opciones > Addons | WoW: Forever 1.60.1 (`16001`) |
-
-Consulta las novedades de cada versión en la sección de releases. [Última release](https://github.com/sebasgrios/profession-util/releases/latest)
 
 ## Desarrollo
 

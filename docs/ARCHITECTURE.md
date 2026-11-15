@@ -21,7 +21,6 @@ addons/
 docs/               Arquitectura del repositorio y contexto de trabajo
 scripts/            Validación y empaquetado
 dist/               ZIP generados, fuera de Git
-packages/           ZIP de distribución pública por addon y versión
 .cache/             Herramientas locales y descargas verificadas, fuera de Git
 ```
 
@@ -56,6 +55,6 @@ El empaquetador toma la versión de `<NombreInterno>.toc` y verifica las rutas d
 
 ## Publicar Profession Reagents
 
-1. Valida el addon y genera su ZIP en `dist/`. Copia el ZIP verificado en `packages/ProfessionReagents/` y actualiza los enlaces de descarga en ambos README.
-2. Al subir un nuevo ZIP a `main`, GitHub Actions valida su contenido y publica la versión del TOC en `ghcr.io/sebasgrios/profession-reagents`. El enlace directo al ZIP permite que los jugadores lo descarguen desde el navegador.
-3. Crea la release de GitHub con el tag de la versión y usa el changelog como referencia para las notas. Enlaza el paquete ZIP desde las notas. Para CurseForge, usa el ZIP y el texto de la ficha del addon. [Workflow de publicación](../.github/workflows/publish-profession-reagents.yml) · [Descripción para CurseForge](../addons/ProfessionReagents/docs/CURSEFORGE.md)
+1. Valida el addon y genera y verifica su ZIP en `dist/`.
+2. Crea la release de GitHub con el tag de la versión. Escribe las notas a partir del changelog y adjunta a **Assets** un ZIP instalable por cada addon incluido en la publicación.
+3. Comprueba el enlace a la última release desde los README y que los ZIP adjuntos se descargan. Para CurseForge, usa el ZIP y el texto de la ficha del addon. [Descripción para CurseForge](../addons/ProfessionReagents/docs/CURSEFORGE.md)

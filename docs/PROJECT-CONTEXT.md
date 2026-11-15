@@ -16,6 +16,7 @@ El cliente objetivo de Profession Reagents es **World of Warcraft: Forever 1.60.
 - Permitir cambiar las cuatro preferencias desde **Opciones > Addons > Profession Reagents** o mediante `/pr`. Las casillas y los comandos comparten `ProfessionReagentsDB`. De fábrica, el addon y los iconos están activados, y el modo compacto y la depuración están desactivados.
 - Llamar **Visible** a la primera casilla en español y mostrar al pasar el cursor una descripción localizada del efecto de cada opción.
 - Mantener una introducción breve sobre la utilidad del addon y colocar la instalación a continuación. El usuario instala con Battle.net, el explorador de archivos y la lista de addons. Los pasos de instalación se mantienen libres de comandos.
+- Distribuir los ZIP instalables directamente en **Assets** de la release de GitHub. Los README llevan a la última release y los ZIP generados se guardan localmente en `dist/`.
 
 El alcance de 1.0.0 es identificar profesiones en el tooltip. Los precios, la rentabilidad, el farmeo, las listas de recetas, la gestión de otros personajes, la telemetría y los servicios de red quedaron fuera de esa versión.
 
